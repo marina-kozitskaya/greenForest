@@ -1,0 +1,191 @@
+body {
+    background: #00D5B8;
+}
+.page {
+    font-family: 'Open Sans', sans-serif;
+    color: #004b5c;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.verticalAlign {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.greeting-word {
+    font-weight: 600;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 50px auto;
+}
+.greeting .message{
+    font-weight: 400;
+    font-size: 18px;
+}
+.button{
+    background: #FF5465;
+    height: 60px;
+    outline: none;
+    border: 2px solid #B63641;
+    border-radius: 30px;
+    margin: 50px auto;
+    box-shadow: none;
+    -webkit-transition: box-shadow 0.3s ease-out;
+    -moz-transition: box-shadow 0.3s ease-out;
+    -o-transition: box-shadow 0.3s ease-out;
+    transition: box-shadow 0.3s ease-out;
+}
+.button a {
+     color: #ffffff;
+     text-decoration: none;
+     line-height: 60px;
+     font-size: 24px;
+     padding: 0 40px;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+ }
+.button:hover {
+    box-shadow: 0 0 20px rgba(182, 54, 65, 0.9);
+    -webkit-transition: box-shadow 0.3s ease-out;
+    -moz-transition: box-shadow 0.3s ease-out;
+    -o-transition: box-shadow 0.3s ease-out;
+    transition: box-shadow 0.3s ease-out;
+}
+.button:hover a {
+    color: #B63641;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
+.greenForestImage {
+    position: relative;
+    display: block;
+    width: 350px;
+    min-height: 162px;
+}
+.forest {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.sun {
+    position: absolute;
+    top: 0;
+    left: 7px;
+    z-index: 2;
+}
+.cloud {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    z-index: 1;
+}
+.service {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 20px auto;
+}
+.service a {
+    color: #004b5c;
+    font-weight: 600;
+}
+
+
+.foolWidth {
+    width: 90%;
+}
+
+
+.message {
+    font-size: 20px;
+    margin: 70px auto;
+}
+input {
+    height: 60px;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid #008C71;
+    background: #ffffff;
+    margin: 0;
+    font-size: 20px;
+    color: #008C71;
+    padding: 0 40px;
+    width: 400px;
+    vertical-align: middle;
+    box-shadow: none;
+}
+input:focus {
+    box-shadow: 0 0 20px rgba(12, 139, 114, 0.9);
+    -webkit-transition: box-shadow 0.3s ease-out;
+    -moz-transition: box-shadow 0.3s ease-out;
+    -o-transition: box-shadow 0.3s ease-out;
+    transition: box-shadow 0.3s ease-out;
+}
+.input {
+    vertical-align: middle;
+}
+.input + .input {
+    margin-top: 40px;
+}
+input:autofill {
+    color: #008C71;
+    background: #ffffff;
+}
+::-webkit-input-placeholder {color:#00D5B8}
+::-moz-placeholder          {color:#00D5B8}
+:-moz-placeholder           {color:#00D5B8}
+:-ms-input-placeholder      {color:#00D5B8}
+input[placeholder]          {text-overflow:ellipsis;}
+input::-moz-placeholder     {text-overflow:ellipsis;}
+input:-moz-placeholder      {text-overflow:ellipsis;}
+input:-ms-input-placeholder {text-overflow:ellipsis;}
+label {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+label.userName {
+    background: url("../img/user.png") no-repeat;
+}
+label.phone {
+    background: url("../img/phone2.png") no-repeat;
+}
+label.code {
+    background: url("../img/code.png") no-repeat;
+}
+.buttonLogin {
+    margin-top: 70px;
+}
+.disabledBlock {
+    display: none;
+}
+.invisibleBlock label.userName {
+    background: url("../img/user-dis.png") no-repeat;
+}
+.invisibleBlock label.phone {
+    background: url("../img/phone-dis1.png") no-repeat;
+}
+.invisibleBlock input {
+    border: 2px solid #AFAFAF;
+    color: #AFAFAF;
+}
+input:disabled {
+    border: 2px solid #AFAFAF;
+    color: #AFAFAF;
+}
+.invalid {
+    box-shadow: 0 0 20px rgba(182, 54, 65, 0.9);
+    border: 2px solid #B63641;
+}
